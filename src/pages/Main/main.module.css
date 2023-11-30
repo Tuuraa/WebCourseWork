@@ -1,0 +1,81 @@
+.container * {
+  font-family: 'Inter', sans-serif;
+  font-family: 'Noto Sans', sans-serif;
+  font-family: 'Nova Square', sans-serif;
+}
+
+.container {
+  padding: 25px;
+  height: 100vh;
+  background: -webkit-linear-gradient(90deg, #aec7bc,#91bd95,#8bae60);/* Chrome 10-25, Safari 5.1-6 */                          
+  background: linear-gradient(90deg, #aec7bc,#91bd95,#8bae60);/* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */   
+  
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 40px;
+}
+
+.h1 {
+  font-size: 45px;
+  text-align: center;
+  margin: 0;
+  flex-grow: 1;
+}
+
+.noRooms {
+  margin-top: 30px;
+  margin-right: 150px;
+  font-size: 19px;
+  color: red;
+}
+
+.newRoom {
+  font-weight: 700;
+  padding: 10px;
+  border-radius: 20px;
+  background: #9edfbf;
+  border: 2px solid #000000;
+  font-size: 16px;
+  transition: all 0.25s;
+  cursor: pointer;
+}
+
+.newRoom:hover {
+  transform: scale(1.05);
+}
+
+.rooms {
+  margin-top: 30px;
+  list-style-type: none;
+  margin-right: 130px;
+}
+
+.rooms li {
+  display: inline-block;
+  padding: 20px;
+  text-align: center;
+  margin: 10px;
+  border: 1px solid;
+}
+
+.rooms button {
+  font-weight: 700;
+  cursor: pointer;
+  margin-left: 10px;
+  padding: 10px;
+  background: #9edfbf;
+  transition: all 0.25s;
+  border-radius: 5px;
+}
+
+.roomID{
+  font-weight: 700;
+}
+
+.rooms button:hover {
+  transform: scale(1.02);
+}

@@ -1,0 +1,62 @@
+
+.player {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 50px;
+}
+
+.videoContainer {
+  overflow: hidden;
+  text-align: center;
+}
+
+.playerVideo {
+  width: 50%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+.videosContainer {
+  display: flex;
+}
+
+.input_container {
+  position: relative;
+  width: 300px;
+  display: flex;
+
+  margin: 40px;
+}
+
+.custom_input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.custom_input::placeholder {
+  color: #aaa;
+}
+
+.custom_input:focus {
+  border-color: #4CAF50;
+}
+
+.custom_button {
+  margin-left: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.custom_button:hover {
+  background-color: #45a049;
+}
